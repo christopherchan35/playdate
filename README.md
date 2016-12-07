@@ -1,24 +1,15 @@
-# README
+# [PlayDate](https://playdate-lp.herokuapp.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Help break barriers to women entrepreneurship. PlayDate serves as a community focused childcare service. It allows parents to take turns looking after each others children so they can find time to pursue their careers.
 
-Things you may want to cover:
+## Authored by
 
-* Ruby version
+* Ali Baker ([@thealicat13](https://github.com/thealicat13))
+* Christopher Chan ([@christopherchan35](https://github.com/christopherchan35))
+* Sam Leiken ([@sleiken](https://github.com/sleiken))
+* Seba Belmar ([@sebabelmar](https://github.com/sebabelmar))
+* Sally Park ([@parkyngj](https://github.com/parkyngj))
 
-* System dependencies
+## Created for
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [Lady Problems Hackathon](http://ladyproblemshackathon.com/)
