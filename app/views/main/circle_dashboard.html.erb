@@ -1,0 +1,364 @@
+<link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
+<div class="popup">
+  <div id="firechat-wrapper" class="closed"></div>
+</div>
+<button id="chat-btn"><i class="fa fa-comments seafoam"></i>Chat</button>
+<div class="container">
+  <br>
+  <h1 class="circle-blue">Calendar</h1>
+  <br>
+  <br>
+
+  <div class="row">
+    <div class="center-block">
+      <table class="table dashboard">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+        </thead>
+        <tbody id="hover-this">
+          <tr>
+            <th class="row v-align">AM</th>
+            <td class="green emphasize" id="example1"></td>
+            <td class="yellow emphasize" id="example2"></td>
+            <td class="green emphasize" id="example4"></td>
+            <td class="pink emphasize" id="example5"></td>
+            <td class="yellow emphasize" id="example6"></td>
+          </tr>
+          <tr>
+            <th class="row v-align">PM</th>
+            <td class="green emphasize"></td>
+            <td class="yellow emphasize"></td>
+            <td class="pink emphasize" id="example3"></td>
+            <td class="pink emphasize"></td>
+            <td class="yellow emphasize"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Monday 10/24</h4>
+        </div>
+        <div class="modal-body">
+          <p>Care-Taker: Julia</p>
+          <p>Kids: Stephanie, Robbie, Timothy</p>
+          <p>10AM @ park</p>
+          <p>12PM lunch</p>
+          <p>2PM arts and craft</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel2">Tuesday 10/25</h4>
+        </div>
+        <div class="modal-body">
+          <p>Care-Taker: Cindy + Julia</p>
+          <p>Kids: Jeff, Ali, Sam</p>
+          <p>9AM @ park</p>
+          <p>11AM lunch</p>
+          <p>1:30PM movies</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel4">Wednesday 10/26</h4>
+        </div>
+        <div class="modal-body">
+          <p>Care-Taker: Seba</p>
+          <p>Kids: Mal, Alex</p>
+          <p>9AM reading time</p>
+          <p>12PM lunch</p>
+          <p>2PM park</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel5">Thursday 10/27</h4>
+        </div>
+        <div class="modal-body">
+          <p>STILL NEED CARETAKER</p>
+          <p>Kids: John, Daniel</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel6">Friday 10/28</h4>
+        </div>
+        <div class="modal-body">
+          <p>Care-Taker: Seba + Max</p>
+          <p>Kids: Ken, Sham, Masha, Hunter</p>
+          <p>8AM breakfast</p>
+          <p>11AM board games</p>
+          <p>2PM park</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel3">WEDNESDAY 10/26</h4>
+        </div>
+        <div class="modal-body">
+          <p>STILL NEED CARETAKER</p>
+          <p>Kids: Resdan, Christine, Marvan</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <!-- END OF GRID MODALS -->
+</div>
+
+<!-- Members -->
+<div class="container">
+  <br>
+  <h1 class="circle-blue">Members</h1>
+  <br>
+  <br>
+  <div class='row'>
+    <div class="card-deck-wrapper">
+      <div class="card-deck">
+        <div id="prof1" class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="20160914_176_KLach_H.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Cindy</h4>
+            <p><i class="fa fa-users">&nbsp 3 kids</i></p>
+          </div>
+        </div>
+
+        <div class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="20160914_152_KPena_H.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Julia</h4>
+            <p><i class="fa fa-users">&nbsp 2 kids</i></p>
+          </div>
+        </div>
+
+        <div class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="20160914_203_MTaghvaie_H.jpg" alt="Card image cap"  alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Seba</h4>
+            <p><i class="fa fa-user">&nbsp 1 kid</i></p>
+          </div>
+        </div>
+
+        <div class="card text-xs-center">
+          <img class="card-img-top info-card-img" src="20160914_206_RLogan_H.jpg" alt="Card image cap">
+          <div class="card-block">
+            <h4 class="card-title">Max</h4>
+            <p><i class="fa fa-users">&nbsp 2 kids</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="profileModalLabel">Cindy</h4>
+        </div>
+        <div class="modal-body">
+          <!-- Phone: (555) 555-555<br>
+          Address: 123 Oak St<br>
+          Kids: John, Robbie, Paula -->
+          <div class="col-md-2 user-menu-btns">
+
+            <div class="btn-group-vertical square" id="responsive">
+              <a href="#" class="btn btn-block btn-default">
+                <img class="child fa fa-3x top-btn" src="http://i.imgur.com/1SHg2cC.jpg">
+              </a>
+              <a href="#" class="btn btn-default">
+                <img class="child fa fa-3x middle-btn" src="http://i.imgur.com/E4MPuTI.jpg">
+              </a>
+              <a href="#" class="btn btn-default">
+                <img class="child fa fa-3x" src="http://i.imgur.com/kQKhRej.jpg">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6 user-menu user-pad blehhh">
+            <div class="map-container active">
+              <div id="map"></div>
+            </div>
+
+            <div class="user-menu-content blehh">
+              <h3 class="kid-info-h3">Alice Gatsby</h3>
+              <ul class="user-menu-list">
+                <li>
+                  <h4><i class="icon fa fa-user fa-fw coral"></i> Ali</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-venus fa-fw coral"></i> Female</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-birthday-cake fa-fw coral"></i> 11</h4>
+                </li>
+              </ul>
+
+              <ul class="user-menu-list activities">
+                <li><h4><i class="icon fa fa-heart-o fa-fw coral"></i> <span class="activity"><i class="fa fa-laptop white"></i> computers</span>
+                <span class="activity"><i class="fa fa-gamepad white"></i> gaming</span>
+                <span class="activity"><i class="fa fa-paint-brush white"></i> painting</span>
+                <span class="activity"><i class="fa fa-soccer-ball-o white"></i> soccer</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list diet">
+                <li><h4><i class="icon fa fa-ban fa-fw coral"></i> <span class="allergy"><i class="fa fa-lemon-o white"></i> nuts</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list medkit">
+                <li><h4><i class="icon fa fa-medkit fa-fw coral"></i> <span class="medication"><i class="fa fa-eyedropper white"></i> epipen</span>
+                </h4></li>
+              </ul>
+
+               <!--  <li>
+                  <button type="button" class="btn btn-labeled btn-success" href="#">Rails g</button>
+                </li>
+              </ul> -->
+            </div>
+
+            <div class="user-menu-content blehh">
+              <h3 class="kid-info-h3">Jericho Gatsby</h3>
+              <ul class="user-menu-list">
+                <li>
+                  <h4><i class="icon fa fa-user fa-fw coral"></i> Jerry</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-mars fa-fw coral"></i> Male</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-birthday-cake fa-fw coral"></i> 10</h4>
+                </li>
+              </ul>
+
+              <ul class="user-menu-list activities">
+                <li><h4><i class="icon fa fa-heart-o fa-fw coral"></i>
+                <span class="activity"><i class="fa fa-pagelines white"></i> outdoors</span>
+                <span class="activity"><i class="fa fa-video-camera white"></i> movies</span>
+                <span class="activity"><i class="fa fa-book white"></i> reading</span>
+
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list diet">
+                <li><h4><i class="icon fa fa-heartbeat fa-fw coral"></i> <span class="healthissues"><i class="fa fa-mixcloud white"></i> asthma</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list medkit">
+                <li><h4><i class="icon fa fa-medkit fa-fw coral"></i> <span class="medication"><i class="fa fa-fire-extinguisher fa-rotate-180 white"></i> inhaler</span>
+                </h4></li>
+              </ul>
+
+                <!-- <li>
+                  <button type="button" class="btn btn-labeled btn-success" href="#">Teleport</button>
+                </li>
+              </ul> -->
+            </div>
+            <div class="user-menu-content blehh">
+              <h3 class="kid-info-h3">Keith Gatsby</h3>
+              <ul class="user-menu-list">
+                <li>
+                  <h4><i class="icon fa fa-user fa-fw coral"></i> K.P.</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-mars fa-fw coral"></i> Male</h4>
+                </li>
+                <li>
+                  <h4><i class="icon fa fa-birthday-cake fa-fw coral"></i> 8</h4>
+                </li>
+              </ul>
+
+              <ul class="user-menu-list activities">
+                <li><h4><i class="icon fa fa-heart-o fa-fw coral"></i> <span class="activity"><i class="fa fa-bicycle white"></i> cycling</span>
+                <span class="activity"><i class="fa fa-gamepad white"></i> gaming</span>
+                <span class="activity"><i class="fa fa-television white"></i> television</span>
+                <span class="activity"><i class="fa fa-pencil-square-o white"></i> writing</span>
+                </h4></li>
+              </ul>
+
+              <ul class="user-menu-list diet">
+                <li><h4><i class="icon fa fa-ban fa-fw coral"></i> Allergies: <span class="allergy"><i class="fa fa-paw white"></i> dogs</span>
+                </h4></li>
+              </ul>
+
+
+
+                <!-- <li>
+                  <button type="button" class="btn btn-labeled btn-success" href="#">Teleport</button>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+      </div></div>
+    </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

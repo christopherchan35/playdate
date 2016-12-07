@@ -1,0 +1,151 @@
+$white: white;
+$blue: #95CCC7;
+
+.circle-blue{
+  color: $blue;
+  margin-left: -15px;
+}
+
+td {
+  height: 120px;
+  border-right: solid 5px $white;
+  border-left: solid 5px $white;
+  border-bottom: solid 5px $white;
+  border-top: solid 5px $white;
+}
+
+.v-align{
+  vertical-align: center !important;
+}
+
+.table thead th{
+  border-bottom: 0px solid $white;
+  text-align: center;
+}
+
+.table tbody tr th{
+  border-bottom: 0px solid $white;
+  vertical-align: center !important;
+}
+
+.table td {
+  width: 270px;
+  border-top: solid 5px $white;
+}
+
+thead {
+  border-bottom: solid 5px $white;
+}
+
+tbody {
+  border-top: solid 5px $white;
+  cursor: pointer;
+}
+
+table {
+  border-top: solid 5px $white;
+}
+
+tr {
+  width: 120px;
+}
+
+// tr > td {
+//   width: 120px;
+// }
+
+.emphasize {
+  opacity: .75;
+}
+
+.green {
+  background-color: #C6D0AE;
+}
+
+.green-gradient{
+  height: 200px;
+    background-image: linear-gradient(-45deg, #C6D0AE 25%, transparent 25%, transparent 50%, #C6D0AE 50%, #C6D0AE 75%, transparent 75%, transparent);
+    background-size: 10px 10px;
+}
+
+.green-gradient2{
+  height: 200px;
+    background-image: linear-gradient(-45deg, #C6D0AE 25%, transparent 25%, transparent 50%, #C6D0AE 50%, #C6D0AE 75%, transparent 75%, transparent);
+    background-size: 20px 20px;
+}
+
+.pink {
+  background-color: #FCB7A7;
+}
+
+.pink-gradient{
+  height: 200px;
+  background-image: linear-gradient(-45deg, #FCB7A7 25%, transparent 25%, transparent 50%, #FCB7A7 40%, #FCB7A7 75%, transparent 15%, transparent);
+  background-size: 10px 10px;
+}
+
+.pink-gradient2{
+  height: 200px;
+  background-image: linear-gradient(-45deg, #FCB7A7 25%, transparent 25%, transparent 50%, #FCB7A7 40%, #FCB7A7 75%, transparent 15%, transparent);
+  background-size: 20px 20px;
+}
+
+.yellow {
+  background-color: #F8DDAE;
+}
+
+.yellow-gradient {
+  height: 200px;
+  background-image: linear-gradient(-45deg, #F8DDAE 25%, transparent 25%, transparent 50%, #F8DDAE 40%, #F8DDAE 75%, transparent 15%, transparent);
+  background-size: 10px 10px;
+}
+
+.yellow-gradient2 {
+  height: 200px;
+  background-image: linear-gradient(-45deg, #F8DDAE 25%, transparent 25%, transparent 50%, #F8DDAE 40%, #F8DDAE 75%, transparent 15%, transparent);
+  background-size: 20px 20px;
+}
+
+.gray {
+  height: 200px;
+  background-image: linear-gradient(-45deg,  #cccccc
+ 25%, transparent 25%, transparent 50%,  #cccccc
+ 50%,  #cccccc
+ 75%, transparent 75%, transparent);
+  background-size: 10px 10px;
+}
+
+.label {
+  text-align: center;
+}
+
+.modal {
+  margin: 0 auto;
+  padding-top: 5em;
+  // height: 30em;
+}
+
+.modal-body{
+  height: 30em;
+}
+
+.blehhh {
+  margin-left: 5em;
+  width: 40em;
+  background-color: white;
+}
+
+// -----------------
+
+.info-card-img{
+  width: 160px;
+  height: 200px;
+  padding-top:1em;
+  // background: blue;
+  // text-shadow: 2px 2px;
+  border-radius: 50%;
+}
+
+// .card {
+//   width: 20em;
+// }
